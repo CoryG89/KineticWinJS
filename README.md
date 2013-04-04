@@ -15,9 +15,9 @@ JavaScript Library included in the Windows SDK.
      You can see that the WinJS dependencies and such are also loaded in here. 
    - Any JavaScript you write will need to be linked in here with the script
      tag.
-   - You have access to the [WinJS CSS classes][1] for use in your markup. 
-   - You may also use [Blend for Visual Studio 2012][2] in order to more easily
-     work with the markup and the Windows UI grid.
+   - You have access to the [**WinJS CSS classes**][1] for use in your markup. 
+   - You may also use [**Blend for Visual Studio 2012**][2] in order to more
+     easily work with the markup and the Windows UI grid.
 
 <br />
 
