@@ -1,0 +1,30 @@
+﻿body {
+
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+#mainTitle
+{
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+
+#container
+{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    border: 6px solid #4a4a4a;
+}
