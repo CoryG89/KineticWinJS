@@ -6,7 +6,7 @@ for the Windows Store written in JavaScript / HTML5. Uses the KineticJS Canvas
 API. Currently has no other dependencies other than KineticJS and the WinJS
 JavaScript Library included in the Windows SDK.
 
-![Screenshot](6)
+![Screenshot](KineticWinJS/images/screenshot.jpg "ScreenShot")
 
 ## Files Of Interest
 
