@@ -8,7 +8,7 @@ JavaScript Library included in the Windows SDK.
 
 ## Files Of Interest
 
- * **default.html**
+ * [**default.html**][3]
    - This is your app's main page. I just have some very basic markup in here
      currently that creates the header and the container for the KineticJS
      canvas.
@@ -21,7 +21,7 @@ JavaScript Library included in the Windows SDK.
 
 <br />
 
- * **default.js**
+ * [**default.js**][4]
   - This is where WinJS is initialized, your have some events in here that get
     fired off that we can take note of.
   - `app.oncheckpoint` is fired off just before your app is suspended so that
@@ -35,7 +35,7 @@ JavaScript Library included in the Windows SDK.
 
 <br />
 
- * **default.css**
+ * [**default.css**][5]
   - This is where your styling rules go. This is linked to by `default.html`
     and is defines the width and height of the KineticJS container.
   - There is also two other CSS files you may utilize. `ui-dark.css` and
@@ -44,3 +44,6 @@ JavaScript Library included in the Windows SDK.
    
 [1]: http://msdn.microsoft.com/en-us/library/windows/apps/hh770562.aspx
 [2]: http://msdn.microsoft.com/en-us/library/windows/apps/jj129478.aspx
+[3]: KineticWinJS/default.html
+[4]: KineticWinJS/js/default.js
+[5]: KineticWinJS/css/default.css
