@@ -10,12 +10,16 @@ JavaScript Library included in the Windows SDK.
 
  * **default.html**
    - This is your app's main page. I just have some very basic markup in here
-     currently that creates the header and the container for the KineticJS canvas.
-     You can see that the WinJS dependencies and such are also loaded in here. Any
-     JavaScript your write will need to be linked in here with the script tag. You
-     have access to the [WinJS CSS classes][1] for use in your markup. You may
-     also use [Blend for Visual Studio 2012][2] in order to more easily work with
-     the Windows Grid UI style.
+     currently that creates the header and the container for the KineticJS
+     canvas.
+     You can see that the WinJS dependencies and such are also loaded in here. 
+   - Any JavaScript you write will need to be linked in here with the script
+     tag.
+   - You have access to the [WinJS CSS classes][1] for use in your markup. 
+   - You may also use [Blend for Visual Studio 2012][2] in order to more easily
+     work with the markup and the Windows UI grid.
+
+<br />
 
  * **default.js**
   - This is where WinJS is initialized, your have some events in here that get
@@ -28,6 +32,8 @@ JavaScript Library included in the Windows SDK.
     the app is being woken from suspension.
   - The `app.onactivated` method is where the KineticJS stage is initialized,
     but only on the first activation.
+
+<br />
 
  * **default.css**
   - This is where your styling rules go. This is linked to by `default.html`
